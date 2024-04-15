@@ -1,16 +1,14 @@
 
+**Project: Biodigester**
 
-**Projeto: Biodigestor**
+The biodigester project, developed by the engineering team at Intechno in partnership with the environmental brand and UCL college, is an initiative that combines technology and sustainability. The main goal is to create a didactic tool for related disciplines and also serve as a research instrument.
 
-O projeto do biodigestor, desenvolvido pela equipe de engenheiros da Intechno em parceria com a marca ambiental e a faculdade UCL, é uma iniciativa que combina tecnologia e sustentabilidade. O objetivo principal é criar uma ferramenta didática para disciplinas correlatas e também servir como instrumento de pesquisa.
+**Automation Description:**
 
-**Descrição da Automação:**
+* **PLC:** The system is controlled by the Delta DVP28SV11R2 PLC, a robust and reliable programmable controller.
+Expansion Module: The Delta DVP04PT-S expansion module is used to expand the input and output capabilities of the system, ensuring greater flexibility and control.
+* **HMI:** The Human-Machine Interface (HMI) is achieved through the Delta DOP-103WQ 4.3" HMI. This interface is crucial for system interaction, allowing for efficient monitoring and control.
+Control Logic:
 
-* **PLC:** O sistema é controlado pelo PLC Delta DVP28SV11R2, um controlador programável robusto e confiável.
-* **Módulo de Expansão:** Utiliza-se o módulo de expansão Delta DVP04PT-S para ampliar as capacidades de entrada e saída do sistema, garantindo maior flexibilidade e controle.
-* **IHM:** A interface homem-máquina (IHM) é realizada através do IHM DOP-103WQ 4.3" da Delta. Essa interface é crucial para a interação com o sistema, permitindo monitoramento e controle eficientes.
-
-**Lógica de Controle:**
-
-* **Desenvolvimento em Ladder:** A lógica de leitura de sinais e atuação de válvulas foi desenvolvida em linguagem ladder, utilizando o software IPSoft da Delta. Isso proporciona uma programação intuitiva e fácil de entender, facilitando a manutenção e o desenvolvimento futuro do sistema.
-* **Comunicação Modbus:** Além disso, o projeto conta com comunicação Modbus, o que possibilita a integração e a troca de dados com outros dispositivos. Isso permite a coleta de informações como temperatura, pressão, nível, entre outros parâmetros do dispositivo, ampliando as possibilidades de análise e controle do processo.
+* **Ladder Development:** Signal reading and valve actuation logic was developed using ladder language, using Delta's IPSoft software. This provides intuitive programming that is easy to understand, facilitating maintenance and future system development.
+* **Modbus Communication:** Additionally, the project features Modbus communication, enabling integration and data exchange with other devices. This allows for the collection of information such as temperature, pressure, level, among other parameters of the device, expanding the possibilities for process analysis and control.
